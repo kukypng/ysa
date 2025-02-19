@@ -357,7 +357,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
               disabled={paymentMethod === 'cash' && !changeAmount}
             >
               <WhatsappIcon className="w-5 h-5" />
-              <span>Fazer Pedid</span>
+              <span>Fazer Pedido</span>
             </button>
           </div>
         )}
