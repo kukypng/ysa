@@ -21,7 +21,7 @@ function App() {
   const getStoreConfig = () => {
     switch (store) {
       case 'oliveira-imports':
-        return oliveiraImportsConfig;
+        return teste01Config;
       case 'parceiro1':
         return parceiro1Config;
       case 'parceiro2':
