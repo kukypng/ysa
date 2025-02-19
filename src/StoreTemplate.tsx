@@ -144,15 +144,18 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
         </div>
 
         {/* Info Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-lg shadow flex items-center space-x-4">
-            <MapPin className="w-8 h-8 text-pink-600" />
-            <div>
-              <h3 className="font-semibold">Entrega Grátis</h3>
-              <p className="text-sm text-gray-600">Em pedidos acima de R$ {config.DELIVERY.MIN_ORDER_FREE_DELIVERY.toFixed(2)}</p>
+        <div className="card">
+          <div className="Entrega">
+            <p>loading</p>
+            <div className="words">
+              <span className="word">buttons</span>
+              <span className="word">forms</span>
+              <span className="word">switches</span>
+              <span className="word">cards</span>
+              <span className="word">buttons</span>
             </div>
-      
           </div>
+        </div>
 
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
@@ -371,10 +374,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
             </button>
           </div>
         )}
-
         
-          
-        </div>
       </main>
 
       {/* Footer */}
