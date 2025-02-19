@@ -392,7 +392,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold mb-4">{config.STORE_NAME}</h2>
           <p className="mb-4">Produtos selecionados com ❤️</p>
-          <p className="text-gray-400">© 2024 {config.STORE_NAME}. Todos os direitos reservados.</p>
+          <p className="text-gray-400">© 2025 Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>
