@@ -143,6 +143,17 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
           <p className="text-gray-600">Bolos deliciosos feitos para você ❤️</p>
         </div>
 
+        {/* Info Section */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="bg-white p-6 rounded-lg shadow flex items-center space-x-4">
+            <MapPin className="w-8 h-8 text-pink-600" />
+            <div>
+              <h3 className="font-semibold">Entrega Grátis</h3>
+              <p className="text-sm text-gray-600">Em pedidos acima de R$ {config.DELIVERY.MIN_ORDER_FREE_DELIVERY.toFixed(2)}</p>
+            </div>
+      
+          </div>
+
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {config.PRODUCTS.map((product) => (
@@ -361,23 +372,8 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
           </div>
         )}
 
-        {/* Info Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-lg shadow flex items-center space-x-4">
-            <MapPin className="w-8 h-8 text-pink-600" />
-            <div>
-              <h3 className="font-semibold">Entrega Grátis</h3>
-              <p className="text-sm text-gray-600">Em pedidos acima de R$ {config.DELIVERY.MIN_ORDER_FREE_DELIVERY.toFixed(2)}</p>
-            </div>
-      
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow flex items-center space-x-4">
-            <Star className="w-8 h-8 text-pink-600" />
-            <div>
-              <h3 className="font-semibold">Atendimento por IA</h3>
-              <p className="text-sm text-gray-600">A IA mais avançada fara o seu Atendimento</p>
-            </div>
-          </div>
+        
+          
         </div>
       </main>
 
