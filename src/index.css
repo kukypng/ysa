@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* From Uiverse.io by kennyotsu */ 
+/* From Uiverse.io by */ 
 .card {
     /* color used to softly clip top and bottom of the .words container */
     --bg-color: #212121;
