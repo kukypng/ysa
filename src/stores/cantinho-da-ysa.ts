@@ -13,7 +13,7 @@ export const cantinhoDaYsaConfig: StoreConfig = {
       id: 1,
       name: "Bolo de Brigadeiro",
       price: 14,
-      image: "https://files.fm/u/a9mq5kzmq2w=500&q=80",
+      image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&q=80",
       description: "Delicioso bolo de Brigadeiro com sabor irresistível"
     },
     {
@@ -25,6 +25,13 @@ export const cantinhoDaYsaConfig: StoreConfig = {
     },
     {
       id: 3,
+      name: "Bolo de Ninho com Nutella",
+      price: 14,
+      image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=500&q=80",
+      description: "Bolo de leite Ninho com Nutella"
+    },
+    {
+      id: 4,
       name: "Bolo de Ninho com Nutella",
       price: 14,
       image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=500&q=80",
