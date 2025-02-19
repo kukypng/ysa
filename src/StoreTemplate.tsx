@@ -129,6 +129,9 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
       {/* Affiliate Banner */}
       <div className="bg-pink-100 p-4">
         <div className="container mx-auto text-center">
+          <p className="text-pink-800">
+            <span className="font-semibold">Você está comprando através de: </span>
+            {config.AFFILIATE_NAME}
           </p>
         </div>
       </div>
@@ -137,7 +140,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
       <main className="container mx-auto p-4">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-gray-800 mb-2">Nossos Produtos</h2>
-          <p className="text-gray-600">Bolos deliciosos feitos para você ❤️</p>
+          <p className="text-gray-600">Produtos selecionados especialmente para você ❤️</p>
         </div>
 
         {/* Products Grid */}
@@ -299,7 +302,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
 
             {/* Payment Method Selection */}
             <div className="mt-6">
-              <h4 className="font-semibold text-gray-800 mb-3">Forma de Pagamento</h4>
+              <h4 className="font-semibold text-gray-800 mb-3">Método de Pagamento</h4>
               <div className="grid grid-cols-3 gap-3">
                 <button
                   onClick={() => handlePaymentMethodChange('pix')}
@@ -353,7 +356,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
               disabled={paymentMethod === 'cash' && !changeAmount}
             >
               <WhatsappIcon className="w-5 h-5" />
-              <span>Fazer Pedido</span>
+              <span>Fazer Pedid</span>
             </button>
           </div>
         )}
