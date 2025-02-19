@@ -30,12 +30,5 @@ export const cantinhoDaYsaConfig: StoreConfig = {
       image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=500&q=80",
       description: "Bolo de leite Ninho com Nutella"
     },
-    {
-      id: 4,
-      name: "Bolo de Ninho com Nutella",
-      price: 14,
-      image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=500&q=80",
-      description: "Bolo de leite Ninho com Nutella"
-    },
   ]
 };

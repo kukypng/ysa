@@ -140,7 +140,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
       <main className="container mx-auto p-4">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-gray-800 mb-2">Nossos Produtos</h2>
-          <p className="text-gray-600">Produtos selecionados especialmente para você ❤️</p>
+          <p className="text-gray-600">Bolos deliciosos feitos para você ❤️</p>
         </div>
 
         {/* Products Grid */}
@@ -204,7 +204,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
                   }`}
                 >
                   <Home className="w-5 h-5" />
-                  <span>Retirar no Local</span>
+                  <span>Retirada</span>
                 </button>
               </div>
             </div>
@@ -356,7 +356,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
               disabled={paymentMethod === 'cash' && !changeAmount}
             >
               <WhatsappIcon className="w-5 h-5" />
-              <span>Fazer Pedido pelo WhatsApp</span>
+              <span>Fazer Pedido</span>
             </button>
           </div>
         )}
@@ -369,19 +369,13 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
               <h3 className="font-semibold">Entrega Grátis</h3>
               <p className="text-sm text-gray-600">Em pedidos acima de R$ {config.DELIVERY.MIN_ORDER_FREE_DELIVERY.toFixed(2)}</p>
             </div>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow flex items-center space-x-4">
-            <Heart className="w-8 h-8 text-pink-600" />
-            <div>
-              <h3 className="font-semibold">Produtos Premium</h3>
-              <p className="text-sm text-gray-600">Qualidade garantida</p>
-            </div>
+      
           </div>
           <div className="bg-white p-6 rounded-lg shadow flex items-center space-x-4">
             <Star className="w-8 h-8 text-pink-600" />
             <div>
-              <h3 className="font-semibold">Atendimento VIP</h3>
-              <p className="text-sm text-gray-600">Satisfação garantida</p>
+              <h3 className="font-semibold">Atendimento por IA</h3>
+              <p className="text-sm text-gray-600">A IA mais avançada fara o seu Atendimento</p>
             </div>
           </div>
         </div>
@@ -391,7 +385,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
       <footer className="bg-gray-800 text-white mt-12 py-8">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold mb-4">{config.STORE_NAME}</h2>
-          <p className="mb-4">Produtos selecionados com ❤️</p>
+          <p className="mb-4">Produtos feitos com ❤️</p>
           <p className="text-gray-400">© 2025 Todos os direitos reservados.</p>
         </div>
       </footer>
