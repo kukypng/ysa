@@ -1,7 +1,7 @@
 import { StoreConfig } from '../StoreConfig';
 
 export const oliveiraImportsConfig: StoreConfig = {
-  PHONE_NUMBER: '5511999999999', // Replace with actual phone number
+  PHONE_NUMBER: '5564999421093', // Replace with actual phone number
   DELIVERY: {
     MIN_ORDER_FREE_DELIVERY: 200,
     FEE: 15,
