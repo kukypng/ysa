@@ -139,8 +139,8 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
       {/* Main Content */}
       <main className="container mx-auto p-4">
         <div className="mb-8">
-          <h2 className="text-3xl font-bold text-gray-800 mb-2">Nossos Produtos</h2>
-          <p className="text-gray-600">Bolos no pote</p>
+          <h2 className="text-3xl font-bold text-gray-800 mb-2">Bolos no pote</h2>
+          <p className="text-gray-600">Feito com muito amor ❤️</p>
         </div>
 
         {/* Products Grid */}
