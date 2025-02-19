@@ -372,9 +372,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
           </div>
           
           </div>
-          
-          </div>
-        </div>
+        
       </main>
 
       {/* Footer */}
