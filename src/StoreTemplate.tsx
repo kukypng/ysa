@@ -126,15 +126,6 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
         </div>
       </header>
 
-      {/* Affiliate Banner */}
-      <div className="bg-pink-100 p-4">
-        <div className="container mx-auto text-center">
-          <p className="text-pink-800">
-            <span className="font-semibold">Você está comprando através de: </span>
-            {config.AFFILIATE_NAME}
-          </p>
-        </div>
-      </div>
 
       {/* Main Content */}
       <main className="container mx-auto p-4">
