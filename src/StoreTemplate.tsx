@@ -140,7 +140,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
       <main className="container mx-auto p-4">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-gray-800 mb-2">Nossos Produtos</h2>
-          <p className="text-gray-600">Produtos selecionados especialmente para você ❤️</p>
+          <p className="text-gray-600">Bolos no pote</p>
         </div>
 
         {/* Products Grid */}
@@ -370,19 +370,9 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
               <p className="text-sm text-gray-600">Em pedidos acima de R$ {config.DELIVERY.MIN_ORDER_FREE_DELIVERY.toFixed(2)}</p>
             </div>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow flex items-center space-x-4">
-            <Heart className="w-8 h-8 text-pink-600" />
-            <div>
-              <h3 className="font-semibold">Produtos Premium</h3>
-              <p className="text-sm text-gray-600">Qualidade garantida</p>
-            </div>
+          
           </div>
-          <div className="bg-white p-6 rounded-lg shadow flex items-center space-x-4">
-            <Star className="w-8 h-8 text-pink-600" />
-            <div>
-              <h3 className="font-semibold">Atendimento VIP</h3>
-              <p className="text-sm text-gray-600">Satisfação garantida</p>
-            </div>
+          
           </div>
         </div>
       </main>
