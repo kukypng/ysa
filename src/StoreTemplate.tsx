@@ -129,9 +129,6 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
       {/* Affiliate Banner */}
       <div className="bg-pink-100 p-4">
         <div className="container mx-auto text-center">
-          <p className="text-pink-800">
-            <span className="font-semibold">Você está comprando através de: </span>
-            {config.AFFILIATE_NAME}
           </p>
         </div>
       </div>
@@ -142,13 +139,6 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
           <h2 className="text-3xl font-bold text-gray-800 mb-2">Nossos Produtos</h2>
           <p className="text-gray-600">Bolos deliciosos feitos para você ❤️</p>
         </div>
-
-     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-lg shadow flex items-center space-x-4">
-            <MapPin className="w-8 h-8 text-pink-600" />
-            <div>
-              <h3 className="font-semibold">Entrega Grátis</h3>
-              <p className="text-sm text-gray-600">Em pedidos acima de R$ {config.DELIVERY.MIN_ORDER_FREE_DELIVERY.toFixed(2)}</p>
 
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
@@ -211,7 +201,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
                   }`}
                 >
                   <Home className="w-5 h-5" />
-                  <span>Retirada</span>
+                  <span>Retirar no Local</span>
                 </button>
               </div>
             </div>
@@ -309,7 +299,7 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
 
             {/* Payment Method Selection */}
             <div className="mt-6">
-              <h4 className="font-semibold text-gray-800 mb-3">Método de Pagamento</h4>
+              <h4 className="font-semibold text-gray-800 mb-3">Forma de Pagamento</h4>
               <div className="grid grid-cols-3 gap-3">
                 <button
                   onClick={() => handlePaymentMethodChange('pix')}
@@ -367,7 +357,31 @@ Indicado por: ${config.AFFILIATE_NAME}${paymentInfo}${deliveryInfo}`;
             </button>
           </div>
         )}
-        
+
+        {/* Info Section */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="bg-white p-6 rounded-lg shadow flex items-center space-x-4">
+            <MapPin className="w-8 h-8 text-pink-600" />
+            <div>
+              <h3 className="font-semibold">Entrega Grátis</h3>
+              <p className="text-sm text-gray-600">Em pedidos acima de R$ {config.DELIVERY.MIN_ORDER_FREE_DELIVERY.toFixed(2)}</p>
+            </div>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow flex items-center space-x-4">
+            <Heart className="w-8 h-8 text-pink-600" />
+            <div>
+              <h3 className="font-semibold">Produtos Premium</h3>
+              <p className="text-sm text-gray-600">Qualidade garantida</p>
+            </div>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow flex items-center space-x-4">
+            <Star className="w-8 h-8 text-pink-600" />
+            <div>
+              <h3 className="font-semibold">Atendimento VIP</h3>
+              <p className="text-sm text-gray-600">Satisfação garantida</p>
+            </div>
+          </div>
+        </div>
       </main>
 
       {/* Footer */}
