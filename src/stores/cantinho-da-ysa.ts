@@ -7,13 +7,13 @@ export const cantinhoDaYsaConfig: StoreConfig = {
     FEE: 9,
   },
   STORE_NAME: 'Cantinho Da Ysa',
-  AFFILIATE_NAME: '',
+  AFFILIATE_NAME: 'ysa',
   PRODUCTS: [
     {
       id: 1,
       name: "Bolo de Brigadeiro",
       price: 14,
-      image: "https://imgur.com/gallery/HFlomxXw=500",
+      image: "https://files.fm/u/a9mq5kzmq2",
       description: "Delicioso bolo de Brigadeiro com sabor irresistível"
     },
     {
