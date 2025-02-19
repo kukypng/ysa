@@ -1,41 +1,34 @@
 import { StoreConfig } from '../StoreConfig';
 
 export const cantinhoDaYsaConfig: StoreConfig = {
-  PHONE_NUMBER: '5511999999999',
+  PHONE_NUMBER: '5564999421093',
   DELIVERY: {
     MIN_ORDER_FREE_DELIVERY: 28,
     FEE: 9,
   },
   STORE_NAME: 'Cantinho Da Ysa',
-  AFFILIATE_NAME: 'Gabriela Miranda',
+  AFFILIATE_NAME: '',
   PRODUCTS: [
     {
       id: 1,
-      name: "Bolo de Chocolate",
+      name: "Bolo de Brigadeiro",
       price: 14,
       image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500&q=80",
-      description: "Delicioso bolo de chocolate com cobertura cremosa"
+      description: "Delicioso bolo de Brigadeiro com sabor irresistível"
     },
     {
       id: 2,
-      name: "Bolo de Morango",
+      name: "Bolo de Prestígio",
       price: 14,
       image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&q=80",
-      description: "Bolo cremoso com pedaços de morango fresco"
+      description: "Bolo cremoso com pedaços de coco fresco"
     },
     {
       id: 3,
-      name: "Bolo de Ninho",
+      name: "Bolo de Ninho com Nutella",
       price: 14,
       image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=500&q=80",
-      description: "Bolo de leite Ninho com cobertura especial"
+      description: "Bolo de leite Ninho com Nutella"
     },
-    {
-      id: 4,
-      name: "Bolo de Oreo",
-      price: 14,
-      image: "https://images.unsplash.com/photo-1587668178277-295251f900ce?w=500&q=80",
-      description: "Bolo cremoso com pedaços de Oreo"
-    }
   ]
 };
