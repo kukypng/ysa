@@ -13,21 +13,21 @@ export const cantinhoDaYsaConfig: StoreConfig = {
       id: 1,
       name: "Bolo de Brigadeiro",
       price: 14,
-      image: "https://s11.aconvert.com/convert/p3r68-cdx67/c50er-9az3l.jpg?w=500&q=80",
+      image: "https://s11.aconvert.com/convert/p3r68-cdx67/c50er-9az3l.jpg",
       description: "Delicioso bolo de Brigadeiro com sabor irresistível"
     },
     {
       id: 2,
       name: "Bolo de Prestígio",
       price: 14,
-      image: "https://s11.aconvert.com/convert/p3r68-cdx67/cbmsb-7ghgt.jpg?w=500&q=80",
+      image: "https://s11.aconvert.com/convert/p3r68-cdx67/cbmsb-7ghgt.jpg",
       description: "Bolo cremoso com pedaços de coco fresco"
     },
     {
       id: 3,
       name: "Bolo de Ninho com Nutella",
       price: 14,
-      image: "https://s11.aconvert.com/convert/p3r68-cdx67/aozyo-8bdwx.jpg?w=500&q=80",
+      image: "https://s11.aconvert.com/convert/p3r68-cdx67/aozyo-8bdwx.jpg",
       description: "Bolo de leite Ninho com Nutella"
     },
   ]
