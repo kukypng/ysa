@@ -13,7 +13,7 @@ export const cantinhoDaYsaConfig: StoreConfig = {
       id: 1,
       name: "Bolo de Brigadeiro",
       price: 14,
-      image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&q=80",
+      image: "https://cdn.glitch.global/9c2fc3a0-cd59-4849-9b96-df10aed5f38d/images%2F3.png?v=1739612704939",
       description: "Delicioso bolo de Brigadeiro com sabor irresistível"
     },
     {
