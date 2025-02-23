@@ -12,6 +12,7 @@ import { partner7Config } from './stores/partner7';
 import { partner8Config } from './stores/partner8';
 import { partner9Config } from './stores/partner9';
 import { partner10Config } from './stores/partner10';
+import { partner11Config } from './stores/partner11';
 import { useSearchParams } from 'react-router-dom';
 
 function App() {
@@ -42,6 +43,8 @@ function App() {
         return partner9Config;
       case 'partner10':
         return partner10Config;
+        case 'partner11':
+        return partner11Config;
       default:
         return cantinhoDaYsaConfig;
     }
