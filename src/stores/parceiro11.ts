@@ -1,12 +1,12 @@
 import { StoreConfig } from '../StoreConfig';
 
-export const partner11Config: StoreConfig = {
+export const parceiro11Config: StoreConfig = {
   PHONE_NUMBER: '5511999999999',
   DELIVERY: {
     MIN_ORDER_FREE_DELIVERY: 220,
     FEE: 16,
   },
-  STORE_NAME: 'Parceiro 10 Presentes',
+  STORE_NAME: 'Parceiro 11 Presentes',
   AFFILIATE_NAME: 'Gabriela Miranda',
   PRODUCTS: [
     {

@@ -1,6 +1,6 @@
 import { StoreConfig } from '../StoreConfig';
 
-export const partner10Config: StoreConfig = {
+export const parceiro10Config: StoreConfig = {
   PHONE_NUMBER: '5511999999999',
   DELIVERY: {
     MIN_ORDER_FREE_DELIVERY: 220,

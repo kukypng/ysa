@@ -2,7 +2,7 @@ import React from 'react';
 import { StoreTemplate } from './StoreTemplate';
 import { cantinhoDaYsaConfig } from './stores/cantinho-da-ysa';
 import { oliveiraImportsConfig } from './stores/oliveira-imports';
-import { partner1Config } from './stores/partner1';
+import { parceiro1Config } from './stores/parceiro1';
 import { partner2Config } from './stores/partner2';
 import { partner3Config } from './stores/partner3';
 import { partner4Config } from './stores/partner4';
@@ -11,8 +11,8 @@ import { partner6Config } from './stores/partner6';
 import { partner7Config } from './stores/partner7';
 import { partner8Config } from './stores/partner8';
 import { partner9Config } from './stores/partner9';
-import { partner10Config } from './stores/partner10';
-import { partner11Config } from './stores/partner11';
+import { parceiro10Config } from './stores/parceiro10';
+import { parceiro11Config } from './stores/parceiro11';
 import { useSearchParams } from 'react-router-dom';
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
     switch (store) {
       case 'oliveira-imports':
         return oliveiraImportsConfig;
-      case 'partner1':
-        return partner1Config;
+      case 'parceiro1':
+        return parceiro1Config;
       case 'partner2':
         return partner2Config;
       case 'partner3':
@@ -41,10 +41,10 @@ function App() {
         return partner8Config;
       case 'partner9':
         return partner9Config;
-      case 'partner10':
-        return partner10Config;
-        case 'partner11':
-        return partner11Config;
+      case 'parceiro10':
+        return parceiro10Config;
+        case 'parceiro11':
+        return parceiro11Config;
       default:
         return cantinhoDaYsaConfig;
     }
