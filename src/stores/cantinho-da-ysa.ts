@@ -30,5 +30,12 @@ export const cantinhoDaYsaConfig: StoreConfig = {
       image: "https://cdn.glitch.global/544b719f-90a1-4944-85ea-5af63e29a557/IMG-20250128-WA0019.jpg?v=1740177605290",
       description: "Bolo de leite Ninho com Nutella"
     },
+    {
+      id: 4,
+      name: "egg de Páscoa",
+      price: 14,
+      image: "https://cdn.glitch.global/544b719f-90a1-4944-85ea-5af63e29a557/IMG-20250128-WA0019.jpg?v=1740177605290",
+      description: "um egg de Páscoa"
+    },
   ]
 };
